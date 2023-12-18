@@ -1,0 +1,35 @@
+ul {
+	background: #41b0c4;
+	padding: 20px;
+  border-style: solid;
+	border-color: black;
+	border-radius: 3px;
+
+}
+
+ul li {
+	color: rgb(5, 5, 32);
+  background-color: aliceblue;
+	margin: 5px;
+	border-radius: 3px;
+	padding-left: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+  border-style: solid;
+	/* border-color: black; */
+ 
+}
+
+
+
+.container {
+	width: auto;
+	height: auto;
+	background-color: white;
+  
+  border-color: black;
+}
+
+h3 {
+	text-align: center;
+ 
+}
