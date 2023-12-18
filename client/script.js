@@ -10,24 +10,11 @@ fetch(url)
       const listItem = document.createElement("li");
       listItem.style.borderColor = user.color;
 
-			listItem.innerHTML = `<p>Name: ${user.firstName} ${user.lastName}
-      <br>Username: ${user.username}</br></p>`;
+			listItem.innerHTML = `<p>ID: ${user.id} <br> Name: ${user.firstName} ${user.lastName}
+      <br> Username: ${user.username} <br>Favorit color: ${user.color} </p>`;
 			console.log(user);
 		
       userList.appendChild(listItem);
 		});
-
-    const container = document.querySelector('.container');
-    container.appendChild(userList);
+    document.body.appendChild(userList);
 	});
-
-
-
-
-// const uList = document.createElement("ul");
-
-// uList.innerHTML = userArray;
-// document.body.appendChild(uList);
-
-
-// document.childElement("li")
